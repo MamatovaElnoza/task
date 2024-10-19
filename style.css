@@ -1,4 +1,4 @@
-#colorBox {
+/* #colorBox {
     width: 200px;
     height: 200px;
 }
@@ -9,7 +9,7 @@
 
 .blue-background {
     background-color: blue;
-}
+} /**/
 
 
 
@@ -17,7 +17,7 @@
 
 
 
-/* * {
+* {
     margin: 0;
     padding: 0;
 }
@@ -33,4 +33,4 @@
 
 .blueBackground {
     background-color: blue;
-} */
+}

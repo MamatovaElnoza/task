@@ -1,19 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>TASK</title>
 </head>
-<body>
+
+<body class="white" class="red">
     <h1>Choose background color</h1>
-    <button onclick="setBgRed()">Red</button>
+    <button onclick="setBgRed()" onclick='addNewClass(this)' value='red'>Red</button>
     <button onclick="setBgBlue()">Blue</button>
     <button onclick="setBgGreen()">Green</button>
     <button onclick="setBgYellow()">Yellow</button>
     <button onclick="defaultBgColor()">Reset</button>
 
+    <input type='button' onclick='addNewClass(this)' value='Create' />
+
     <script src="js.js"></script>
 </body>
+
 </html>

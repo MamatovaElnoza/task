@@ -3,9 +3,8 @@ function setBgGreen() {
 }
 
 function setBgRed() {
-    document.body.style.backgroundColor = 'red';
+    document.getElementsByClassName('red').classList.add('myClass');
 }
-
 function setBgBlue() {
     document.body.style.backgroundColor = 'blue';
 }
@@ -17,3 +16,5 @@ function setBgYellow() {
 function defaultBgColor() {
     document.body.style.backgroundColor = 'white';
 }
+
+function addNewClass(elem) { elem.className = "newClass"; }

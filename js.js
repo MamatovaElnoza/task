@@ -27,3 +27,11 @@ function changeColor() {
         colorBox.classList.add('redBackground');
     }
 }
+
+function changeColor() {
+    if (colorBox.className === 'redBackground') {
+        colorBox.className = 'blueBackground';
+    } else {
+        colorBox.className = 'redBackground';
+    }
+}

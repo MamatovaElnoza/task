@@ -19,19 +19,16 @@
 const colorBox = document.getElementById('colorBox');
 
 function changeColor() {
-    if (colorBox.classList.contains('redBackground')) {
-        colorBox.classList.remove('redBackground');
-        colorBox.classList.add('blueBackground');
-    } else {
-        colorBox.classList.remove('blueBackground');
-        colorBox.classList.add('redBackground');
-    }
+    colorBox.classList.toggle('blueBackground');
 }
 
-function changeColor() {
-    if (colorBox.className === 'redBackground') {
-        colorBox.className = 'blueBackground';
-    } else {
-        colorBox.className = 'redBackground';
-    }
-}
+
+
+
+// function changeColor() {
+//     if (colorBox.className === 'redBackground') {
+//         colorBox.className = 'blueBackground';
+//     } else {
+//         colorBox.className = 'redBackground';
+//     }
+// }

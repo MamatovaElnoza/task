@@ -14,6 +14,20 @@
 
 
 
+// const colorBox = document.getElementById('colorBox');
+
+// function changeColor() {
+//     if (colorBox.classList.contains('redBackground')) {
+//         colorBox.classList.remove('redBackground');
+//         colorBox.classList.add('blueBackground');
+//     } else {
+//         colorBox.classList.remove('blueBackground');
+//         colorBox.classList.add('redBackground');
+//     }
+// }
+
+
+
 
 
 const colorBox = document.getElementById('colorBox');
